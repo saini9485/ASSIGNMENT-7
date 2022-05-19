@@ -8,7 +8,7 @@ main{
 
 h1{ 
     text-align: center;
-    color: white;
+    color: rgb(18, 14, 247);
     background-color: red;
     padding: 10px 30px;
 }
@@ -20,7 +20,7 @@ main img{
 }
 main img:hover{
     padding: 10px;
-    border: 10px solid rgb(98, 0, 255);
+    border: 10px solid rgb(236, 11, 11);
     border-radius: 50%;
     transition: .5s;
 }
@@ -33,7 +33,7 @@ h3{
   
 }
 h3:hover{
-    transition: .3s;
+    transition: .5s;
     color: white;
     background-color: red;
     box-shadow: slategray 5px 5px 1px ;
@@ -59,7 +59,7 @@ h3:hover{
     background-color: transparent;
 }
 .watchlater:hover{
-   transition: .3s;
+   transition: .5s;
     color: white;
     background-color: red;
     box-shadow: slategray 5px 5px 1px ;
@@ -77,5 +77,5 @@ footer a{
 }
 footer a:hover{
     border-bottom: 1px solid white;
-    transition: .3s ease;
+    transition: .5s ease;
 }
